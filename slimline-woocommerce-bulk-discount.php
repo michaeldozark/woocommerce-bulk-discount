@@ -3,7 +3,7 @@
 Plugin Name: Slimline WooCommerce Bulk Discount
 Plugin URI: https://github.com/michaeldozark/woocommerce-bulk-discount
 Description: Apply fine-grained bulk discounts to items in the shopping cart. Fork of Woocommerce Bulk Discount by Rene Puchinger
-Author: Rene Puchinger
+Author: Michael Dozark
 Version: 0.1.0
 Author URI: https://www.michaeldozark.com/
 License: GPL3
@@ -1006,6 +1006,6 @@ if ( !class_exists( 'Slimline_Woo_Bulk_Discount_Plugin_t4m' ) ) {
 
 	}
 
-	new Woo_Bulk_Discount_Plugin_t4m();
+	new Slimline_Woo_Bulk_Discount_Plugin_t4m();
 
 }
